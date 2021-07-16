@@ -19,7 +19,10 @@
 		C85AB0832697DEDF003C2897 /* flixsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AB0822697DEDF003C2897 /* flixsterUITests.swift */; };
 		C85AB0972697EA80003C2897 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AB0962697EA80003C2897 /* MoviesViewController.swift */; };
 		C85AB09D2697EFA3003C2897 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C85AB09C2697EFA3003C2897 /* AlamofireImage */; };
-		C85AB0B526991E70003C2897 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85AB0B426991E6F003C2897 /* MovieCell.swift */; };
+		C8A232F426A0E7FB008072BF /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A232F326A0E7FB008072BF /* MovieDetailsViewController.swift */; };
+		C8A2330C26A13203008072BF /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2330B26A13203008072BF /* MovieGridViewController.swift */; };
+		C8A2331126A133F5008072BF /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2331026A133F5008072BF /* MovieGridCell.swift */; };
+		C8A2331626A2301E008072BF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2331526A2301E008072BF /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +66,10 @@
 		C85AB0822697DEDF003C2897 /* flixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixsterUITests.swift; sourceTree = "<group>"; };
 		C85AB0842697DEDF003C2897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C85AB0962697EA80003C2897 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
-		C85AB0B426991E6F003C2897 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		C8A232F326A0E7FB008072BF /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		C8A2330B26A13203008072BF /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		C8A2331026A133F5008072BF /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		C8A2331526A2301E008072BF /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +146,10 @@
 				C85AB06B2697DEDF003C2897 /* LaunchScreen.storyboard */,
 				C85AB06E2697DEDF003C2897 /* Info.plist */,
 				C85AB0962697EA80003C2897 /* MoviesViewController.swift */,
-				C85AB0B426991E6F003C2897 /* MovieCell.swift */,
+				C8A232F326A0E7FB008072BF /* MovieDetailsViewController.swift */,
+				C8A2330B26A13203008072BF /* MovieGridViewController.swift */,
+				C8A2331026A133F5008072BF /* MovieGridCell.swift */,
+				C8A2331526A2301E008072BF /* MovieCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -417,9 +426,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8A2331626A2301E008072BF /* MovieCell.swift in Sources */,
+				C8A2330C26A13203008072BF /* MovieGridViewController.swift in Sources */,
+				C8A232F426A0E7FB008072BF /* MovieDetailsViewController.swift in Sources */,
 				C85AB0612697DEDC003C2897 /* AppDelegate.swift in Sources */,
 				C85AB0632697DEDC003C2897 /* SceneDelegate.swift in Sources */,
-				C85AB0B526991E70003C2897 /* MovieCell.swift in Sources */,
+				C8A2331126A133F5008072BF /* MovieGridCell.swift in Sources */,
 				C85AB0972697EA80003C2897 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
